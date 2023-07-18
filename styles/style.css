@@ -94,7 +94,7 @@
     background-repeat: no-repeat;
     width: 900px;
     height: 700px;
-    margin: 0 145px;
+    /* margin: 0 145px; */
 }
 
 .goat-heading-para {
@@ -257,6 +257,53 @@
 }
 
 /*===Funny Video css end===*/
+/*===play instantly css start===*/
+.play-instantly {
+    margin-top: 120px;
+    margin-left: 439px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-content {}
+
+.play-content h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-content p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.play-image {
+    padding-right: 240px;
+    position: relative;
+}
+.img-main img{
+    position: relative;
+}
+.img-cartoon{
+    position: absolute;
+    bottom: -74px;
+    left: -140px;
+}
+/*===play instantly css end===*/
 
 /*===Responsive design for mobile css start===*/
 @media screen and (max-width: 576px) {
@@ -294,6 +341,10 @@
         margin-top: 78px;
     }
 
+    .goat-content {
+        margin: 0 140px;
+    }
+
     .we-are-gaming-main-content {
         flex-direction: column;
     }
@@ -325,20 +376,24 @@
     .goat-img-content {
         margin-left: 100px;
     }
-    .funny-vdo-box{
+
+    .funny-vdo-box {
         flex-direction: column;
     }
-    .funny-vdo-cart{
+
+    .funny-vdo-cart {
         width: 600px;
     }
-    .funny-vdo-heading{
+
+    .funny-vdo-heading {
         width: 600px;
         margin-left: 130px;
     }
-    .funny-vdo-heading h1{
+
+    .funny-vdo-heading h1 {
         font-size: 40px;
     }
-    
+
 }
 
 /*===Responsive design for mobile css end===*/

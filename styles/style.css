@@ -6,14 +6,16 @@
 
 /*===navbar css start===*/
 .navbar-main {
-    padding: 0 240px;
+    padding: 30px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px #0000000d;
 }
-
+.img-first-content{
+    color: #FF42A5;
+}
 .image-content {
     display: flex;
     justify-content: space-between;
@@ -70,13 +72,16 @@
     right: 0;
     padding: 0 24px;
 }
-
+.btn-nav{
+    padding-top: 37px;
+}
 /*===navbar css end===*/
 /*===goat css start===*/
 .goat-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* padding: 0 145px; */
 }
 
 .goat-content {
@@ -117,7 +122,8 @@
     text-transform: lowercase;
 }
 
-.sign-in-btn, .go-rog-btn {
+.sign-in-btn,
+.go-rog-btn {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 21px 40px;
@@ -126,7 +132,7 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 41px;
+    margin-top: 10px;
 }
 
 .go-rog-btn {
@@ -138,3 +144,116 @@
 }
 
 /*===goat css end===*/
+/*===we are gaming css start===*/
+.we-gaming-main {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gaming-main-content {
+    padding: 0 240px;
+    display: flex;
+    align-items: center;
+}
+
+.we-are-article {
+    text-align: right;
+    margin-top: 90px;
+}
+
+.we-are-article h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-are-article h2 {
+    color: #534C64;
+    text-align: right;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.we-are-article p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.know-more-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    margin-top: 32px;
+}
+
+/*===we are gaming css end===*/
+
+/*===Responsive design for mobile css start===*/
+@media screen and (max-width: 576px) {
+    .navbar-main{
+        flex-direction: column;
+        box-shadow: none;
+        width: 100%;
+    }
+    .nav ul {
+        flex-direction: column;
+        margin-top: 60px;
+        position: relative;
+    }
+    .nav ul li a{
+        margin-top: 62px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .nav-img-main{
+        position: absolute;
+        top: 40;
+        bottom: 0;
+    }
+    .nav ul button{
+        margin-top: 62px;
+    }
+    .goat-main{
+        flex-direction: column-reverse;
+        align-items: normal;
+        margin-top: 78px;
+    }
+    .we-are-gaming-main-content{
+        flex-direction: column;
+    }
+    .we-gaming-main{
+        background: linear-gradient(90deg, #fff 0%, #fff 100%);
+        padding: 0 190px;
+    }
+    .we-are-article{
+        width: 500px;
+        text-align: center;
+    }
+    .we-are-article h1, h2{
+        text-align: center;
+    }
+    .we-are-article h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .we-are-article p{
+        text-align: center;
+    }
+    .goat-img-content {
+        margin-left: 100px;
+    }
+}
+/*===Responsive design for mobile css end===*/

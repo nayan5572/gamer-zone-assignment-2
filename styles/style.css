@@ -153,6 +153,7 @@
 /*===we are gaming css start===*/
 .we-gaming-main {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-bottom: 90px;
 }
 
 .we-are-gaming-main-content {

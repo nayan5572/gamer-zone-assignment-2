@@ -596,6 +596,227 @@
         margin-top: 0;
     }
 
+    .footer {
+        background: #0B0223;
+        padding-top: 120px;
+        padding-bottom: 130px;
+        text-align: center;
+        width: 1035px;
+    }
+
+    .footer-nav {}
+
+    .nav {}
+
+    .nav .ul-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+    }
+
+    .footer-company-logo {}
+
+    .brand-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+    }
+
+    .brand-logo-image {
+        margin-top: 60px;
+    }
+
+    .footer-terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 465px;
+        margin: 0 auto;
+        margin-top: 86px;
+    }
+    .footer-copyright{}
+    .copyright p{
+        color: #ffffff99;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        width: 235px;
+        margin: 0 auto;
+    }
 }
 
 /*===Responsive design for mobile css end===*/
+/*===Responsive design for tablet css start===*/
+@media screen and (min-width:577px) and (max-width: 960px) {
+    .navbar-main {
+        flex-direction: column;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .nav ul li a {
+        margin-top: 62px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .nav-img-main {
+        position: absolute;
+        top: 40;
+        bottom: 0;
+    }
+
+    .nav ul button {
+        margin-top: 62px;
+    }
+
+    .goat-main {
+        flex-direction: column-reverse;
+        align-items: normal;
+        margin-top: 78px;
+    }
+
+    .goat-content {
+        margin: 0 140px;
+    }
+
+    .we-are-gaming-main-content {
+        flex-direction: column;
+    }
+
+    .we-gaming-main {
+        background: linear-gradient(90deg, #fff 0%, #fff 100%);
+        padding: 0 190px;
+    }
+
+    .we-are-article {
+        width: 500px;
+        text-align: center;
+    }
+
+    .we-are-article h1,
+    h2 {
+        text-align: center;
+    }
+
+    .we-are-article h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .we-are-article p {
+        text-align: center;
+    }
+
+    .goat-img-content {
+        margin-left: 100px;
+    }
+
+    .funny-vdo-box {
+        flex-direction: column;
+    }
+
+    .funny-vdo-cart {
+        width: 600px;
+    }
+
+    .funny-vdo-heading {
+        width: 600px;
+        margin-left: 130px;
+    }
+
+    .funny-vdo-heading h1 {
+        font-size: 40px;
+    }
+
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .play-content {
+        width: 600px;
+        margin-right: 230px;
+    }
+
+    .play-image {
+        position: relative;
+        margin-top: 74px;
+        padding: 0;
+    }
+
+    .call-to-action {
+        background: linear-gradient(90deg, #fff 0%, #fff 100%);
+        margin-left: 200px
+    }
+
+    .games-btn {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 27px;
+        flex-wrap: wrap;
+    }
+
+    .games-btn .cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+        margin-top: 0;
+    }
+
+    .footer {
+        background: #0B0223;
+        padding-top: 120px;
+        padding-bottom: 130px;
+        text-align: center;
+        width: 1250px;
+    }
+
+    .footer-nav {}
+
+    .nav {}
+
+    .nav .ul-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+    }
+
+    .footer-company-logo {}
+
+    .brand-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+    }
+
+    .brand-logo-image {
+        margin-top: 60px;
+    }
+
+    .footer-terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 465px;
+        margin: 0 auto;
+        margin-top: 86px;
+    }
+    .footer-copyright{}
+    .copyright p{
+        color: #ffffff99;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        width: 235px;
+        margin: 0 auto;
+    }
+}
+/*===Responsive design for tablet css end===*/

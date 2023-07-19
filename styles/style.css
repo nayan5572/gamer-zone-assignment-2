@@ -294,16 +294,179 @@
 .play-image {
     padding-right: 240px;
     position: relative;
+    /* margin-left: 230px; */
 }
-.img-main img{
+
+.img-main img {
     position: relative;
 }
-.img-cartoon{
+
+.img-cartoon {
     position: absolute;
     bottom: -74px;
     left: -140px;
 }
+
 /*===play instantly css end===*/
+/*===career css start===*/
+
+
+
+
+/*===career css end===*/
+/*===call to action css start===*/
+.call-to-action {
+    margin-top: 132px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 120px;
+    padding-bottom: 146px;
+}
+
+.games-btn {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 27px;
+    flex-wrap: wrap;
+    margin-right: 249px;
+    margin-left: 200px;
+}
+
+.games-btn .cart {
+    width: 248px;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 8px;
+    margin-right: 0;
+}
+
+.games-btn .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    row-gap: 100px;
+    margin-top: 81px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    background: #fff;
+}
+
+.cart:hover h2 {
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cart h2 {
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*===call to action css end===*/
+/*===footer css start===*/
+.footer {
+    background: #0B0223;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.logo {}
+
+.footer-logo {}
+
+.footer-logo h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-nav {
+    margin-top: 56px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav ul li {}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    margin-right: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.footer-company-logo {
+    margin-top: 66px;
+}
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.youtube-special {
+    width: 50px;
+    height: 50px;
+}
+
+.brand-logo-image {}
+
+.brand-logo-image img {
+    width: 57px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.footer-terms {
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+}
+
+.terms {}
+
+.terms p {
+    color: #ffffff99;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+}
+
+.copyright {}
+
+.copyright p {
+    color: #ffffff99;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*===footer css end===*/
 
 /*===Responsive design for mobile css start===*/
 @media screen and (max-width: 576px) {
@@ -392,6 +555,45 @@
 
     .funny-vdo-heading h1 {
         font-size: 40px;
+    }
+
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .play-content {
+        width: 600px;
+        margin-right: 230px;
+    }
+
+    .play-image {
+        position: relative;
+        margin-left: 230px;
+        margin-top: 74px;
+        padding: 0;
+    }
+
+    .call-to-action {
+        background: linear-gradient(90deg, #fff 0%, #fff 100%);
+        margin-left: 90px;
+    }
+
+    .games-btn {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 27px;
+        flex-wrap: wrap;
+    }
+
+    .games-btn .cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+        margin-top: 0;
     }
 
 }
